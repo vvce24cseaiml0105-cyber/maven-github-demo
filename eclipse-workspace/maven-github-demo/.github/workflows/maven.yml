@@ -23,4 +23,5 @@ jobs:
           cache: maven
 
       - name: Build with Maven
+        working-directory: eclipse-workspace/maven-github-demo
         run: mvn clean package
